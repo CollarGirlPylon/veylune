@@ -16,16 +16,16 @@
 
 @font-face {
   font-family: 'Wicked Glint';
-  src: url('/assets/fonts/wicked-glint/WickedGlint-Regular.woff2') format('woff2');
-  font-weight: 400;
+  src: url('/assets/fonts/wickedglint/WickedGlint-Regular.woff2') format('woff2');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Banthern';
-  src: url('/assets/fonts/banthern/BanthernPersonalUse.woff2') format('woff2');
-  font-weight: 400;
+  src: url('/assets/fonts/banthern/banthern.regular.ttf') format('woff2');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -41,3 +41,4 @@ h2, h3, h4, h5, h6 {
 h1 {
   font-family: 'Banthern', serif;
 }
+
