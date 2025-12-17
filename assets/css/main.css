@@ -40,5 +40,10 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Banthern', serif;
+  font-size: 4rem;
+  font-weight: normal;
+  font-synthesis: none;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
 }
 
