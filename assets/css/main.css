@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Eczar';
-  src: url('/assets/fonts/eczar/Eczar-Regular.woff2') format('woff2');
+  src: url('../fonts/eczar/Eczar-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Eczar';
-  src: url('/assets/fonts/eczar/Eczar-Bold.woff2') format('woff2');
+  src: url('../fonts/eczar/Eczar-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Wicked Glint';
-  src: url('/assets/fonts/wickedglint/WickedGlint-Regular.woff2') format('woff2');
+  src: url('../fonts/wickedglint/WickedGlint-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Banthern';
-  src: url('/assets/fonts/banthern/banthern.regular.ttf') format('woff2');
+  src: url('../fonts/banthern/banthern.regular.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
