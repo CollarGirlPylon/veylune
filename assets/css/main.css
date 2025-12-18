@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Eczar';
   src: url('../fonts/eczar/Eczar-Regular.woff2') format('woff2');
@@ -30,12 +31,107 @@
   font-display: swap;
 }
 
+.navbar {
+  width: 99%;
+  border: ridge #9e7c2f;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+    url('../images/parchment_tile1.jpg');
+  background-size: auto, 200px;
+  background-repeat: repeat;
+}
+
+.navbar a {
+  font-family: 'Wicked Glint', serif;
+  text-decoration: none;
+  color: #2a1e14;
+  margin-left: 1.5rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.nav-inner {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: .5rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a.nav-logo {
+  font-family: 'Banthern', serif;
+  font-size: 1.75rem;
+  font-weight: normal;
+  padding-top: .35rem;
+}
+
+.nav-sigil {
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
 body {
   font-family: 'Eczar', serif;
+  background-image:
+    linear-gradient(
+      rgba(211, 184, 150, 0.54),
+      rgba(211, 184, 150, 0.54)
+    ),
+    url("../images/mtnriverbackground.png");
+  background-repeat: 
+    repeat,
+    repeat;
+  background-size: auto, 200px;
 }
+
+p {
+  text-indent: 2rem;
+}
+
+.main {
+  padding: 1rem;
+  max-width: 40rem;
+  
+  margin: 0 auto;
+  
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('../images/parchment_tile1.jpg');
+  background-repeat: repeat, repeat;
+  background-size: auto, 200px;
+  
+  border-radius: 10px;
+}
+
+.pageheader {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.3rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
 
 h2, h3, h4, h5, h6 {
   font-family: 'Wicked Glint', serif;
+  font-weight: normal;
 }
 
 h1 {
