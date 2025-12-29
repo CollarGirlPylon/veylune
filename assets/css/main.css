@@ -41,6 +41,16 @@ rgba(211, 184, 150, 0.54) - transparent overlay
 #cfa863 - gold accent
 */
 
+.intextlink {
+  text-decoration: underline;
+  text-decoration-style: double;
+  color: #132928;
+}
+
+.intextlink:hover {
+  color: #1c6260;
+}
+
 .navbar-div {
   background-color: #cfa863;
   border-radius: 6px;
@@ -82,8 +92,6 @@ rgba(211, 184, 150, 0.54) - transparent overlay
   background-color: #b69253;
   border-radius: 6px;
 }
-
-
 
 .dropdown .dropbtn {
   font-size: 16px;
